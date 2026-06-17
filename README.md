@@ -5,7 +5,7 @@ Predicting whether a user on an e-commerce platform will make a purchase or not,
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Binary classification — given user-level features like pages viewed, time on site, income, and device type, predict:
 - `1` → User converted (made a purchase)
@@ -15,7 +15,7 @@ Binary classification — given user-level features like pages viewed, time on s
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CA_Hackathon/
@@ -33,7 +33,7 @@ CA_Hackathon/
 
 ---
 
-## 🔧 Approach
+##  Approach
 
 **1. EDA**
 Explored missing values, class imbalance (~69/31 split), outliers, and feature distributions.
@@ -53,7 +53,7 @@ Soft voting ensemble of XGBoost + LightGBM with threshold tuning to maximise F1.
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | F1 Score |
 |---|---|
@@ -65,7 +65,7 @@ Soft voting ensemble of XGBoost + LightGBM with threshold tuning to maximise F1.
 
 ---
 
-## 🛠️ Libraries Used
+##  Libraries Used
 
 ```
 pandas • NumPy • scikit-learn • XGBoost • LightGBM • Matplotlib
@@ -73,7 +73,7 @@ pandas • NumPy • scikit-learn • XGBoost • LightGBM • Matplotlib
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo and place the dataset files inside `data/`
 2. Open `notebook.ipynb` in Jupyter Notebook
